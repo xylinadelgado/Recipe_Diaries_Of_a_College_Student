@@ -1,22 +1,50 @@
+*{
+    background-color: #e9cf99;
+    color: #43231b;
+}
+
 .nav{
+background-color: #8c523b;
 list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0;
   padding: 0;
+  height:50px;
 
 }
 .nav li{
     display: inline;
   margin: 0 10px;
+  background-color: #8c523b;
     
     
 }
 .nav a{
-    color: pink;
+    color: white;
   text-decoration: none;
+  background-color: #8c523b;
 }
 .right-links {
     display: flex;
+    background-color: #8c523b;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .tuna{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .fruit{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .test{
+    display: flex;
+    justify-content: flex-start;
+
   }
